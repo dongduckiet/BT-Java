@@ -8,12 +8,12 @@ public class PhuongTrinhBacnhat {
         heSoA=scanner.nextDouble();
         System.out.println("He so B:");
         heSoB=scanner.nextDouble();
-        if (heSoA==0) {
-            System.out.println("Khong phai phuong trinh bac 1");
-
-            
+        if (heSoA==0) 
+        {
+            System.out.println("Khong phai phuong trinh bac 1");    
         }
-        else{
+        else
+        {
         x=-heSoB/heSoA;
         System.out.println("Nghiem cua phuong trinh la:"+x);
         }

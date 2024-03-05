@@ -45,7 +45,7 @@ public class Bai4 {
                 System.out.println("Thang 12");
                 break;
             default:
-                System.out.println("So khong hop le . Moi nhap lai");
+                System.out.println("So khong hop le moi nhap lai");
         }
     }
 }
