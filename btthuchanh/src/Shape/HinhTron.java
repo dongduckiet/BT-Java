@@ -1,11 +1,12 @@
 import java.util.Scanner;
 
-public class HinhTron {
+public class HinhTron extends HinhHoc {
   public float r;
-  public float cv;
-  public float dt;
-  public final float PI = 3.14f;
 
+  public HinhTron()
+  {
+    ten = "Hinh Tron";
+  }
 
   public void NhapBanKinh()
   {
@@ -14,15 +15,15 @@ public class HinhTron {
     r = scanner.nextFloat(); 
   }
 
-  public void Chuvi()
+  public void TinhChuvi()
   {
     cv = 2 * PI * r; 
   }
 
-  public void Dientich()
+  public void TinhDientich()
   {
     dt = PI * r * r;
-  }
+  } 
 
 }
 
